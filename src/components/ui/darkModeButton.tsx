@@ -1,3 +1,4 @@
+import { RiMoonLine, RiSunLine } from 'react-icons/ri';
 import { useTheme } from '../../context/ThemeContext';
 // import { useState, useEffect } from 'react';
 
@@ -7,9 +8,9 @@ export const DarkModeButton = () => {
   return (
     <button
       onClick={toggleTheme}
-      className="mt-4 p-2 bg-blue-500 dark:bg-blue-700 text-white rounded"
+      className="text-black dark:text-white text-xl transition-all"
     >
-      {isDarkMode ? 'Modo Claro' : 'Modo Escuro'}
+      {isDarkMode ? <RiSunLine /> : <RiMoonLine />}
     </button>
   );
 };

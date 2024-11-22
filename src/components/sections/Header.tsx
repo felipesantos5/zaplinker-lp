@@ -16,7 +16,7 @@ export const Header = () => {
           <a href="#planos" className="transition-colors hover:underline hover:text-zinc-200">Planos</a>
           <a href="" className="transition-colors hover:underline hover:text-zinc-200">Planos</a>
         </nav> */}
-        <div>
+        <div className="flex items-center gap-4">
           <DarkModeButton />
           <Button >Acessar o app</Button>
         </div>
