@@ -26,13 +26,18 @@ body {
   pointer-events: none;
 }
 
+h1::selection,
 h2::selection,
+h3::selection,
+h4::selection,
 p::selection,
 span::selection,
 a::selection,
 button::selection,
 img::selection,
 div::selection,
+li::selection,
+ul::selection,
 br::selection {
   background-color: #36ba55;
 }
