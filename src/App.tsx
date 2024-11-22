@@ -15,7 +15,7 @@ function App() {
       <Cta />
       <AnimatedGridPattern
         className={cn(
-          "[mask-image:radial-gradient(1200px_circle_at_center,white,transparent)]",
+          "[mask-image:radial-gradient(1050px_circle_at_center,white,transparent)]",
           "h-[240%] skew-y-12",
         )}
       />

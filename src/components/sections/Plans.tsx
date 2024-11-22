@@ -17,12 +17,12 @@ export const Plans = () => {
               <p className="text-4xl font-bold mb-8">R$00,00</p>
               <Button className="mb-10 w-full h-12">Assinar Agora</Button>
 
-              <ul className="flex flex-col ">
+              <ul className="flex flex-col">
                 <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} />Links ilimitados</li>
                 <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} /> sem limite de numeros</li>
                 <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} className="" /> url personalizavel</li>
-                <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3 text-zinc-200"><RiCloseCircleLine size={'22px'} /> url não presonalizaveis</li>
-                <li className="flex items-center gap-2 dark:border-white/70 py-3 text-zinc-200"><RiCloseCircleLine size={'22px'} /> sem metricas de trafego</li>
+                <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3 text-zinc-300 dark:text-zinc-600"><RiCloseCircleLine size={'22px'} /> url não presonalizaveis</li>
+                <li className="flex items-center gap-2 dark:border-white/70 py-3 text-zinc-300 dark:text-zinc-600"><RiCloseCircleLine size={'22px'} /> sem metricas de trafego</li>
               </ul>
             </div>
 
@@ -39,7 +39,7 @@ export const Plans = () => {
                   <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} /> Sem limite de numeros</li>
                   <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} />Url personalizavel</li>
                   <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} />Metricas de trafego</li>
-                  <li className="flex items-center gap-2 dark:border-white/70 py-3 text-zinc-200"><RiCloseCircleLine size={'22px'} /> rl não presonalizaveis</li>
+                  <li className="flex items-center gap-2 dark:border-white/70 py-3 text-zinc-300 dark:text-zinc-600"><RiCloseCircleLine size={'22px'} /> rl não presonalizaveis</li>
                 </ul>
               </div>
             </NeonGradientCard>
