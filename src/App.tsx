@@ -24,8 +24,8 @@ function App() {
       <Questions />
       <AnimatedGridPattern
         className={cn(
-          "[mask-image:radial-gradient(1700px_circle_at_center,white,transparent)]",
-          "h-[450%] skew-y-12 sm:hidden",
+          "[mask-image:radial-gradient(1850px_circle_at_center,white,transparent)]",
+          "h-[440%] skew-y-12 xsm:hidden",
         )}
       />
       <Footer />

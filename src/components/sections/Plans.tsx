@@ -5,7 +5,7 @@ import { Button } from "../ui/button"
 export const Plans = () => {
   return (
     <section className="dark:text-white">
-      <div className="py-24">
+      <div className="pt-24 pb-12">
         <div className="text-center mx-4 sm:mx-20 container-grid">
           <h2 className="text-5xl font-semibold mb-4">Conheça nossos planos de assinatura</h2>
           <p className="mb-24 text-muted-foreground tracking-tight">Nossos planos são flexíveis e projetados para oferecer o melhor custo-benefício, adaptando-se ao que você precisa.</p>

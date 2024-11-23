@@ -7,7 +7,7 @@ export const Footer = () => {
   const { isDarkMode } = useTheme();
 
   return (
-    <footer className="pt-10 pb-10 text-white border-t border-black/10 dark:border-white/20">
+    <footer className="py-5 text-white border-t border-black/10 dark:border-white/20">
       <section className="container-grid flex gap-10 flex-row justify-between items-center">
         <img src={!isDarkMode ? logoBlack : logoWhite} alt="zaplinker" width={'36px'} height={'36px'} className="h-[36px]" />
         <div className="flex flex-wrap gap-4 sm:flex-row items-center">
