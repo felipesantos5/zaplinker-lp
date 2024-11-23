@@ -13,8 +13,8 @@ export const Cta = () => {
           to="plansSection"
           spy={true}
           smooth={true}
-          offset={-1050}
-          duration={2500}
+          offset={-980}
+          duration={2200}
         >
           <ShinyButton className='z-10'>
             Teste de graça

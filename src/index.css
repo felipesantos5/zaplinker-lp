@@ -9,7 +9,7 @@ body {
 .container-grid {
   max-width: 1200px;
   width: calc(100% - 32px);
-  margin-inline: auto;
+  margin-inline: auto !important;
 }
 
 .backgroundtest::before {

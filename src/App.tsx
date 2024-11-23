@@ -15,18 +15,26 @@ function App() {
       <Cta />
       <AnimatedGridPattern
         className={cn(
-          "[mask-image:radial-gradient(1050px_circle_at_center,white,transparent)]",
-          "h-[240%] skew-y-12",
+          "[mask-image:radial-gradient(880px_circle_at_center,white,transparent)] md:[mask-image:radial-gradient(1100px_circle_at_center,white,transparent)]",
+          "h-[200%] md:h-[240%] skew-y-12",
         )}
       />
       <About />
       <Plans />
       <Questions />
-
+      <AnimatedGridPattern
+        className={cn(
+          "[mask-image:radial-gradient(1700px_circle_at_center,white,transparent)]",
+          "h-[450%] skew-y-12 sm:hidden",
+        )}
+      />
       <Footer />
     </div>
   )
 
 }
+
+// "[mask-image:radial-gradient(1050px_circle_at_center,white,transparent)]",
+// "h-[240%] skew-y-12",
 
 export default App
