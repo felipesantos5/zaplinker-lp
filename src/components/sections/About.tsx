@@ -2,7 +2,6 @@ import { RiLineChartLine, RiLinkM, RiQrCodeLine } from "react-icons/ri"
 import { AboutCard } from "../ui/aboutCard"
 import AnimatedSection from "../ui/animetedSection"
 
-
 export const About = () => {
 
   return (
