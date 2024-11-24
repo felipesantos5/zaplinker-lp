@@ -1,10 +1,11 @@
 import { RiCheckboxCircleLine, RiCloseCircleLine, RiStarLine } from "react-icons/ri"
 import { NeonGradientCard } from "../ui/neon-gradient-card"
 import { Button } from "../ui/button"
+import AnimatedSection from "../ui/animetedSection"
 
 export const Plans = () => {
   return (
-    <section className="dark:text-white">
+    <AnimatedSection className="dark:text-white">
       <div className="pt-24 pb-12">
         <div className="text-center mx-4 sm:mx-20 container-grid">
           <h2 className="text-5xl font-semibold mb-4">Conheça nossos planos de assinatura</h2>
@@ -62,6 +63,6 @@ export const Plans = () => {
 
         </div>
       </div>
-    </section>
+    </AnimatedSection>
   )
 }

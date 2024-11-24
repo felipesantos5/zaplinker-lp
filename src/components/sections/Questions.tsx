@@ -1,8 +1,9 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "../ui/accordion"
+import AnimatedSection from "../ui/animetedSection"
 
 export const Questions = () => {
   return (
-    <section className="py-20 dark:text-white">
+    <AnimatedSection className="py-20 dark:text-white">
       <div className="container-grid" id="plansSection">
         <h2 className="text-center text-5xl mb-10 font-semibold">Perguntas frequentes</h2>
         <div className="max-w-2xl m-auto">
@@ -32,6 +33,6 @@ export const Questions = () => {
           </Accordion>
         </div>
       </div>
-    </section>
+    </AnimatedSection>
   )
 }
