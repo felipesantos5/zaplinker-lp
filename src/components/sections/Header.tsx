@@ -1,31 +1,4 @@
-// import { useTheme } from "../../context/ThemeContext";
 import logoWhite from "../../assets/zaplinker-white.png"
-// import { DarkModeButton } from "../ui/darkModeButton"
-// import { Button } from "../ui/button";
-
-// export const Header = () => {
-//   const { isDarkMode } = useTheme();
-
-//   return (
-//     <header className="py-2 z-50">
-//       <section className="container-grid flex items-center justify-between text-white">
-//         <img src={!isDarkMode ? logoBlack : logoWhite} alt="logo zaplinker" width={'32px'} />
-//         {/* <nav className="flex gap-5">
-//           <a href="#funcionalidades" className="transition-colors hover:underline hover:text-zinc-200">Funcionalidade</a>
-//           <a href="#planos" className="transition-colors hover:underline hover:text-zinc-200">Planos</a>
-//           <a href="" className="transition-colors hover:underline hover:text-zinc-200">Planos</a>
-//         </nav> */}
-//         <div className="flex items-center gap-4">
-//           <DarkModeButton />
-//           <a href="https://www.zaplinker.com/">
-//             <Button>Acessar o app</Button>
-//           </a>
-//         </div>
-//       </section>
-//     </header>
-//   )
-// }
-
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
@@ -112,8 +85,8 @@ export const Header = () => {
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ type: "spring", stiffness: 80, duration: 1, delay: 0.8 }}
                 className="h-11 w-32 rounded-full cursor-pointer flex justify-center items-center bg-white  transition-colors duration-500 text-black font-semibold xlg:w-full"
-                // href="#planos"
-                onClick={() => scrollToSection('planos')}
+              // href="#planos"
+              // onClick={() => scrollToSection('planos')}
               >
                 Planos
               </motion.a>
