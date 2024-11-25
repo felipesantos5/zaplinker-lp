@@ -1,6 +1,5 @@
 // import { useTheme } from "../../context/ThemeContext";
 import logoWhite from "../../assets/zaplinker-white.png"
-import logoBlack from "../../assets/zaplinker-black.png"
 // import { DarkModeButton } from "../ui/darkModeButton"
 // import { Button } from "../ui/button";
 
@@ -55,10 +54,10 @@ export const Header = () => {
     setExpanded(false);
   };
 
-  const scroll = new SmoothScroll('a[href*="#"]', {
-    speed: 800,
-    speedAsDuration: true
-  });
+  // const scroll = new SmoothScroll('a[href*="#"]', {
+  //   speed: 800,
+  //   speedAsDuration: true
+  // });
 
 
   return (
