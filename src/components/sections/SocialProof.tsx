@@ -5,7 +5,7 @@ import { ReviewCard } from "../ui/ReviewCard";
 const reviews = [
   {
     name: "Calos Rocha",
-    username: "co-produtor",
+    username: "Co-produtor",
     body: "I've never seen anything like this before. It's amazing. I love it.",
     img: "https://avatar.vercel.sh/jack",
   },
@@ -23,7 +23,7 @@ const reviews = [
   },
   {
     name: "Gabriel Fonseca",
-    username: "Social Media Manager",
+    username: "Social Media",
     body: "I'm at a loss for words. This is amazing. I love it.",
     img: "https://avatar.vercel.sh/jane",
   },
