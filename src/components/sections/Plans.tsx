@@ -61,13 +61,13 @@ export const Plans = () => {
             </div>
 
           </section>
-          <div className="bg-white dark:bg-primaryColor text-black/90 dark:text-white/70 p-5 py-10 rounded-lg text-left w-full relative z-20 border border-zinc-300 dark:border-zinc-700 flex gap-6 items-center">
+          <div className="bg-white dark:bg-primaryColor text-black/90 dark:text-white/70 p-5 py-10 rounded-lg text-left w-full relative z-20 border border-zinc-300 dark:border-zinc-700 flex flex-col sm:flex-row gap-6 items-center">
             <div className="flex flex-col gap-3 max-w-xl">
-              <h2 className="text-2xl font-medium text-black dark:text-white">Ficou com alguma dúvida ?</h2>
-              <p className="font-light text-muted-foreground tracking-tight text-justify">Se você tem alguma dúvida sobre como funciona nosso aplicativo de redirecionamento de URL personalizada do WhatsApp ou sobre nossos planos, estamos aqui para ajudar!</p>
+              <h2 className="text-2xl font-medium text-center sm:text-left text-black dark:text-white">Ficou com alguma dúvida ?</h2>
+              <p className="font-light text-muted-foreground tracking-tight">Se você tem alguma dúvida sobre como funciona nosso aplicativo de redirecionamento de URL personalizada do WhatsApp ou sobre nossos planos, estamos aqui para ajudar!</p>
             </div>
             <div className="w-1/3 m-auto">
-              <Button className="w-full h-12"><RiWhatsappLine /> Whatsapp</Button>
+              <Button className="w-full h-12"><RiWhatsappLine size={50} /> Whatsapp</Button>
             </div>
 
           </div>

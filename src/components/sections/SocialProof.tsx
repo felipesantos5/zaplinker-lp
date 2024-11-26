@@ -59,7 +59,7 @@ const secondRow = reviews.slice(reviews.length / 2);
 
 export function SofialProof() {
   return (
-    <AnimatedSection className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden">
+    <AnimatedSection className="relative flex h-[320px] md:h-[500px] w-full flex-col items-center justify-center overflow-hidden pt-20">
       <Marquee pauseOnHover className="[--duration:25s]">
         {firstRow.map((review) => (
           <ReviewCard key={review.username} {...review} />
