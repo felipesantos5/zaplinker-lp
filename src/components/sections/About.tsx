@@ -6,7 +6,7 @@ export const About = () => {
 
   return (
     <AnimatedSection>
-      <div className="container-grid grid md:grid-cols-2 lg:grid-cols-3 gap-8 my-10">
+      <div className="container-grid grid md:grid-cols-2 lg:grid-cols-3 px-4 gap-8 my-10">
         <AboutCard icon={<RiLinkM />} title={"Links de WhatsApp"} text={"Crie links com diversos numeros de WhatsApp sendo randomizados."} />
         <AboutCard icon={<RiLineChartLine />} title={"Metricas"} text={"Tenha acesso a numeros detalhados de quantos usuarios acessaram seu redirecionar."} />
         <AboutCard icon={<RiLineChartLine />} title={"Metricas"} text={"Tenha acesso a numeros detalhados de quantos usuarios acessaram seu redirecionar."} />

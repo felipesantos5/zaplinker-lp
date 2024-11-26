@@ -21,7 +21,7 @@ export const Cta = () => {
           duration={2200}
         >
           <ShinyButton className='z-10'>
-            Teste de graça
+            Teste gratis
           </ShinyButton>
         </Link>
 

@@ -46,19 +46,19 @@ export const Header = () => {
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ type: "spring", stiffness: 200, damping: 20, delay: 0.5 }}
-            className="bg-zinc-900/90 h-11 w-24 px-2 rounded-full font-bold flex justify-center items-center"
+            className="bg-zinc-900/90 h-9 w-24 px-2 rounded-full font-bold flex justify-center items-center"
             href="/"
           >
-            <img src={logoWhite} alt={"logo Zapfy teste"} width={38} className={"mx-6"} />
+            <img src={logoWhite} alt={"logo Zapfy teste"} width={30} className={"mx-6"} />
           </motion.a>
 
           {isMobile ? (
-            <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} transition={{ type: "spring", stiffness: 100, duration: 0.5 }} className={`flex flex-col `}>
+            <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} transition={{ type: "spring", stiffness: 100, duration: 0.5 }} className={`flex flex-col`}>
               <motion.div
                 initial={{ x: -50, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ type: "spring", stiffness: 60, duration: 0.5 }}
-                className="h-11 w-28 hover:bg-[#484849]/40 transition-colors duration-500 rounded-full cursor-pointer font-medium flex justify-center items-center text-white"
+                className="h-9 w-28 hover:bg-[#484849]/40 transition-colors duration-500 rounded-full cursor-pointer font-medium flex justify-center items-center text-white"
                 onClick={() => {
                   if (isMobile) {
                     toggleExpanded();
@@ -74,7 +74,7 @@ export const Header = () => {
                 initial={{ x: -50, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ type: "spring", stiffness: 80, duration: 1, delay: 1.0 }}
-                className="h-11 w-36 hover:bg-[#484849]/40 transition-colors duration-500 rounded-full cursor-pointer font-medium flex justify-center items-center text-white"
+                className="h-9 w-36 hover:bg-[#484849]/40 transition-colors duration-500 rounded-full cursor-pointer font-medium flex justify-center items-center text-white"
               // href="#sobre-nos"
 
               >
@@ -84,7 +84,7 @@ export const Header = () => {
                 initial={{ x: -50, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ type: "spring", stiffness: 80, duration: 1, delay: 0.8 }}
-                className="h-11 w-32 rounded-full cursor-pointer flex justify-center items-center bg-white  transition-colors duration-500 text-black font-semibold xlg:w-full"
+                className="h-9 w-28 rounded-full cursor-pointer flex justify-center items-center bg-white  transition-colors duration-500 text-black font-semibold xlg:w-full"
               // href="#planos"
               // onClick={() => scrollToSection('planos')}
               >
@@ -105,17 +105,17 @@ export const Header = () => {
               href="#sobre-nos"
               onClick={closeModal}
             >
-              Sobre nós
+              Planos
             </motion.a>
             <motion.a
               initial={{ x: -50, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ type: "spring", stiffness: 80, duration: 1, delay: 0.2 }}
-              className="h-11 w-32 rounded-full cursor-pointer flex justify-center items-center  font-semibold bg-white text-black "
+              className="h-9 w-28 rounded-full cursor-pointer flex justify-center items-center  font-semibold bg-white text-black "
               href="#planos"
               onClick={closeModal}
             >
-              Planos
+              App
             </motion.a>
           </div>
         )}
