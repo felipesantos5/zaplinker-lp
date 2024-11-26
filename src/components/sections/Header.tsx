@@ -74,21 +74,21 @@ export const Header = () => {
                 initial={{ x: -50, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ type: "spring", stiffness: 80, duration: 1, delay: 1.0 }}
-                className="h-9 w-36 hover:bg-[#484849]/40 transition-colors duration-500 rounded-full cursor-pointer font-medium flex justify-center items-center text-white"
+                className="h-9 w-28 hover:bg-[#484849]/40 transition-colors duration-500 rounded-full cursor-pointer font-medium flex justify-center items-center text-white"
               // href="#sobre-nos"
 
               >
-                Sobre nós
+                Planos
               </motion.button>
               <motion.a
                 initial={{ x: -50, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ type: "spring", stiffness: 80, duration: 1, delay: 0.8 }}
                 className="h-9 w-28 rounded-full cursor-pointer flex justify-center items-center bg-white  transition-colors duration-500 text-black font-semibold xlg:w-full"
-              // href="#planos"
+                href="https://app.zaplinker.com/"
               // onClick={() => scrollToSection('planos')}
               >
-                Planos
+                Acessar
               </motion.a>
             </div>
           )}
@@ -115,7 +115,7 @@ export const Header = () => {
               href="#planos"
               onClick={closeModal}
             >
-              App
+              Acessar App
             </motion.a>
           </div>
         )}
