@@ -66,7 +66,7 @@ export const Plans = () => {
               <h2 className="text-4xl font-semibold text-center sm:text-left text-black dark:text-white">Ficou com alguma dúvida ?</h2>
               <p className="font-light text-muted-foreground tracking-tight">Se você tem alguma dúvida sobre como funciona nosso aplicativo de redirecionamento de URL personalizada do WhatsApp ou sobre nossos planos, estamos aqui para ajudar!</p>
             </div>
-            <div className="w-1/3 m-auto">
+            <div className="w-full md:w-2/3 m-auto">
               <Button className="w-full h-12"><RiWhatsappLine className="text-2xl w-20" size={'20px'} /> Whatsapp</Button>
             </div>
 

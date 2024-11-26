@@ -8,7 +8,7 @@ export const Footer = () => {
 
   return (
     <footer className="py-5 text-white border-t border-black/10 dark:border-white/20">
-      <section className="container-grid flex gap-10 flex-row justify-between items-center">
+      <section className="container-grid flex gap-10 flex-row justify-between items-center px-6">
         <img src={!isDarkMode ? logoBlack : logoWhite} alt="zaplinker" width={'36px'} height={'36px'} className="h-[36px]" />
         <div className="flex flex-wrap gap-4 sm:flex-row items-center">
           <a href="https://www.instagram.com/zaplinker" className="bg-zinc-800 dark:bg-zinc-800 p-1 rounded-full hover:bg-zinc-600 dark:hover:bg-zinc-700 transition-colors"><RiInstagramLine size={'20px'} /></a>

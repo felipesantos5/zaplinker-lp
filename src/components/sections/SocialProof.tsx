@@ -3,24 +3,24 @@ import Marquee from "../ui/marquee";
 import { ReviewCard } from "../ui/ReviewCard";
 
 const reviews = [
-  {
-    name: "Calos Rocha",
-    username: "Co-produtor",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://avatar.vercel.sh/jack",
-  },
+  // {
+  //   name: "Calos Rocha",
+  //   username: "Co-produtor",
+  //   body: "I've never seen anything like this before. It's amazing. I love it.",
+  //   img: "https://avatar.vercel.sh/jack",
+  // },
   {
     name: "Bernardo Silva",
     username: "gestor de trafego",
-    body: "Os links personalizados geram muito mais credibilidade nos anúncios, e o trackeamento é perfeito.",
+    body: "Me ajudou muito a criar links curtos e trackear tudo. Os relatórios para meus clientes ficaram muito mais precisos.",
     img: "https://avatar.vercel.sh/jill",
   },
-  {
-    name: "Gabriel Fonseca",
-    username: "Social Media",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/jane",
-  },
+  // {
+  //   name: "Gabriel Fonseca",
+  //   username: "Social media",
+  //   body: "I'm at a loss for words. This is amazing. I love it.",
+  //   img: "https://avatar.vercel.sh/jane",
+  // },
   {
     name: "Fernanda Ribeiro",
     username: "Lançamentos",
@@ -29,14 +29,20 @@ const reviews = [
   },
   {
     name: "Italo Nogueira",
-    username: "Criador de Conteúdo",
+    username: "Criador de conteudo",
     body: "Uso o link personalizado na minha bio do Instagram, e a taxa de cliques aumentou muito. Sem falar que fica muito mais profissional.",
     img: "https://avatar.vercel.sh/jenny",
   },
   {
+    name: "Jessica Medeiros",
+    username: "Lançamentos",
+    body: "Usei o Zaplinker para metrificar cada etapa do meu lançamento e os resultados foram impressionantes.",
+    img: "https://avatar.vercel.sh/jony",
+  },
+  {
     name: "Caio Correia",
-    username: "Social mídia",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    username: "Social media",
+    body: "Minha taxa de cliques aumentou consideravelmente desde que comecei a usar os links na bio dos meus clientes. ",
     img: "https://avatar.vercel.sh/jony",
   },
 ];
