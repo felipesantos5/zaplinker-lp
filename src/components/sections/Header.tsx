@@ -70,16 +70,15 @@ export const Header = () => {
             </motion.div>
           ) : (
             <div className="flex xlg:flex">
-              <motion.button
+              <motion.a
                 initial={{ x: -50, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ type: "spring", stiffness: 80, duration: 1, delay: 1.0 }}
                 className="h-9 w-28 hover:bg-[#484849]/40 transition-colors duration-500 rounded-full cursor-pointer font-medium flex justify-center items-center text-white"
-              // href="#sobre-nos"
-
+                href="#planos"
               >
                 Planos
-              </motion.button>
+              </motion.a>
               <motion.a
                 initial={{ x: -50, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}

@@ -23,33 +23,45 @@ const reviews = [
   },
   {
     name: "Gabriel Fonseca",
-    username: "",
+    username: "Social Media Manager",
     body: "I'm at a loss for words. This is amazing. I love it.",
     img: "https://avatar.vercel.sh/jane",
   },
   {
     name: "Gabriela Amaral",
-    username: "",
+    username: "Copywriter",
     body: "I'm at a loss for words. This is amazing. I love it.",
     img: "https://avatar.vercel.sh/jenny",
   },
   {
     name: "Eduardo Motta",
-    username: "",
+    username: "Gestor de projetos digitais",
     body: "I'm at a loss for words. This is amazing. I love it.",
     img: "https://avatar.vercel.sh/james",
   },
   {
     name: "Thiago Menegate",
-    username: "",
+    username: "Especialista em CRO",
     body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/james",
+    img: "https://avatar.vercel.sh/jenny",
   },
   {
     name: "Fernanda Ribeiro",
-    username: "",
+    username: "Especialista em Lançamentos",
     body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/james",
+    img: "https://avatar.vercel.sh/jill",
+  },
+  {
+    name: "Fernanda Ribeiro",
+    username: "Criador de Conteúdo",
+    body: "I'm at a loss for words. This is amazing. I love it.",
+    img: "https://avatar.vercel.sh/jenny",
+  },
+  {
+    name: "Fernanda Ribeiro",
+    username: "Social mídia",
+    body: "I'm at a loss for words. This is amazing. I love it.",
+    img: "https://avatar.vercel.sh/jack",
   },
 ];
 
