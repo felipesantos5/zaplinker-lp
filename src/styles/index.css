@@ -41,6 +41,7 @@ li::selection,
 ul::selection,
 br::selection {
   background-color: #36ba55;
+  color: white !important;
 }
 
 @layer base {
