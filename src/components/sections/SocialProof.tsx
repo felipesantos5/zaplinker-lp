@@ -10,16 +10,10 @@ const reviews = [
     img: "https://avatar.vercel.sh/jack",
   },
   {
-    name: "Matheus Pimentel",
-    username: "gestor de trafego",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://avatar.vercel.sh/jill",
-  },
-  {
     name: "Bernardo Silva",
-    username: "especialista em marketing",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/john",
+    username: "gestor de trafego",
+    body: "Os links personalizados geram muito mais credibilidade nos anúncios, e o trackeamento é perfeito.",
+    img: "https://avatar.vercel.sh/jill",
   },
   {
     name: "Gabriel Fonseca",
@@ -28,40 +22,22 @@ const reviews = [
     img: "https://avatar.vercel.sh/jane",
   },
   {
-    name: "Gabriela Amaral",
-    username: "Copywriter",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/jenny",
-  },
-  {
-    name: "Eduardo Motta",
-    username: "Gestor de projetos digitais",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/james",
-  },
-  {
-    name: "Thiago Menegate",
-    username: "Especialista em CRO",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/jenny",
-  },
-  {
     name: "Fernanda Ribeiro",
-    username: "Especialista em Lançamentos",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/jill",
+    username: "Lançamentos",
+    body: "Criei uma diferentes links e usei QR codes nos meus eventos presenciais. O controle que tive sobre cada etapa foi perfeito!",
+    img: "https://avatar.vercel.sh/rauchg",
   },
   {
-    name: "Fernanda Ribeiro",
+    name: "Italo Nogueira",
     username: "Criador de Conteúdo",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    body: "Uso o link personalizado na minha bio do Instagram, e a taxa de cliques aumentou muito. Sem falar que fica muito mais profissional.",
     img: "https://avatar.vercel.sh/jenny",
   },
   {
-    name: "Fernanda Ribeiro",
+    name: "Caio Correia",
     username: "Social mídia",
     body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/jack",
+    img: "https://avatar.vercel.sh/jony",
   },
 ];
 

@@ -40,7 +40,7 @@ export const Header = () => {
           initial={{ scale: 0, y: -100 }}
           animate={{ scale: 1, y: 0 }}
           transition={{ type: "spring", stiffness: 50, duration: 2 }}
-          className="p-[03px] flex justify-center items-center text-[17px] bg-[#3c3d3c80] shadow-lg rounded-full mt-6 "
+          className="p-[03px] flex justify-center items-center text-[17px] bg-primaryColor/90 shadow-lg rounded-full mt-6 "
         >
           <motion.a
             initial={{ scale: 0 }}
