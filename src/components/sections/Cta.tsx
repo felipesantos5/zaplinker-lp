@@ -1,4 +1,4 @@
-import { Link } from 'react-scroll';
+// import { Link } from 'react-scroll';
 import ShinyButton from "../ui/shiny-button";
 import { Button } from '../ui/button';
 import AnimatedSection from '../ui/animetedSection';
@@ -19,16 +19,16 @@ export const Cta = () => {
         </a>
 
 
-        <Link
+        {/* <Link
           activeClass="active"
-          to="plansSection"
+          to="about"
           spy={true}
           smooth={true}
-          offset={-980}
+          offset={-200}
           duration={2200}
-        >
-          <Button className='z-10'>Continuar explorando</Button>
-        </Link>
+        > */}
+        <Button className='z-10'>Continuar explorando</Button>
+        {/* </Link> */}
       </div>
     </AnimatedSection >
   )

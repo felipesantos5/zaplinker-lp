@@ -46,6 +46,10 @@ blockquote::selection {
   color: white !important;
 }
 
+h1 {
+  user-select: none;
+}
+
 img {
   pointer-events: none;
 }
