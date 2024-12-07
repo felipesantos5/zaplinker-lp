@@ -10,6 +10,12 @@ const reviews = [
   //   img: "https://avatar.vercel.sh/jack",
   // },
   {
+    name: "Italo Nogueira",
+    username: "Criador de conteudo",
+    body: "Uso o link personalizado na minha bio do Instagram, e a taxa de cliques aumentou muito. Ficou muito mais profissional.",
+    img: "https://avatar.vercel.sh/jane",
+  },
+  {
     name: "Bernardo Silva",
     username: "Gestor de trafego",
     body: "Me ajudou muito a criar links curtos e trackear tudo. Os relatórios para meus clientes ficaram muito mais precisos.",
@@ -21,18 +27,7 @@ const reviews = [
   //   body: "I'm at a loss for words. This is amazing. I love it.",
   //   img: "https://avatar.vercel.sh/jane",
   // },
-  {
-    name: "Fernanda Ribeiro",
-    username: "Lançamentos",
-    body: "Criei uma diferentes links e usei QR codes nos meus eventos presenciais. O controle que tive sobre cada etapa foi perfeito!",
-    img: "https://avatar.vercel.sh/rauchg",
-  },
-  {
-    name: "Italo Nogueira",
-    username: "Criador de conteudo",
-    body: "Uso o link personalizado na minha bio do Instagram, e a taxa de cliques aumentou muito. Ficou muito mais profissional.",
-    img: "https://avatar.vercel.sh/jenny",
-  },
+
   {
     name: "Jessica Medeiros",
     username: "Lançamentos",
@@ -43,7 +38,13 @@ const reviews = [
     name: "Caio Correia",
     username: "Social media",
     body: "Minha taxa de cliques aumentou consideravelmente desde que comecei a usar os links na bio dos meus clientes. ",
-    img: "https://avatar.vercel.sh/jony",
+    img: "https://avatar.vercel.sh/jack",
+  },
+  {
+    name: "Fernanda Ribeiro",
+    username: "Lançamentos",
+    body: "Criei uma diferentes links e usei QR codes nos meus eventos presenciais. O controle que tive sobre cada etapa foi perfeito!",
+    img: "https://avatar.vercel.sh/rauchg",
   },
 ];
 

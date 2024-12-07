@@ -14,16 +14,16 @@ export const Plans = () => {
           <section className="flex flex-col gap-6 items-center lg:flex-row md:justify-between mb-6">
 
             <div className="bg-white dark:bg-primaryColor text-black/90 dark:text-white/90 p-5 py-10 rounded-lg text-left w-full lg:w-[30%] z-20 border border-zinc-300 dark:border-zinc-700 h-full">
-              <h3 className="font-semibold text-xl text-zinc-800 dark:text-zinc-400">Essecial</h3>
-              <p className="text-4xl font-bold mb-8">R$00,00</p>
+              <h3 className="font-semibold text-xl text-zinc-800 dark:text-zinc-400">Plano Básico</h3>
+              <p className="text-4xl font-bold mb-8">Grátis</p>
               <Button className="mb-10 w-full h-12">Assinar Agora</Button>
 
               <ul className="flex flex-col">
-                <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} />Links ilimitados</li>
-                <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} /> sem limite de numeros</li>
-                <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} className="" /> url personalizavel</li>
-                <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3 text-zinc-300 dark:text-zinc-600"><RiCloseCircleLine size={'22px'} /> url não presonalizaveis</li>
-                <li className="flex items-center gap-2 dark:border-white/70 py-3 text-zinc-300 dark:text-zinc-600"><RiCloseCircleLine size={'22px'} /> sem metricas de trafego</li>
+                <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} />1 link</li>
+                <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} />2 números</li>
+                <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3 text-zinc-300 dark:text-zinc-600"><RiCloseCircleLine size={'22px'} /> Url personalizavel</li>
+                <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3 text-zinc-300 dark:text-zinc-600"><RiCloseCircleLine size={'22px'} /> Metricas de trafego</li>
+                <li className="flex items-center gap-2 py-3 text-zinc-300 dark:text-zinc-600"><RiCloseCircleLine size={'22px'} />Personalização de UTMS</li>
               </ul>
             </div>
 
@@ -31,32 +31,32 @@ export const Plans = () => {
               <div className="text-black/90 dark:text-white/90 text-left py-4">
                 <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-green-800 text-white text-xs font-semibold rounded-lg px-4 py-1 flex items-center gap-2 z-10"><RiStarLine />RECOMENDADO</div>
 
-                <h3 className="font-semibold text-xl text-zinc-800 dark:text-zinc-400">Essecial</h3>
-                <p className="text-4xl font-bold mb-8">R$33,30<span className="text-base font-medium dark:text-zinc-400"> /mês</span></p>
+                <h3 className="font-semibold text-xl text-zinc-800 dark:text-zinc-400">Plano Pro</h3>
+                <p className="text-4xl font-bold mb-8">R$30,00<span className="text-base font-medium dark:text-zinc-400"> /mês</span></p>
                 <Button className="mb-10 w-full h-12">Assinar Agora</Button>
 
                 <ul className="flex flex-col">
-                  <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} /> Até 20 links</li>
-                  <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} /> Sem limite de numeros</li>
+                  <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} /> 5 links</li>
+                  <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} /> 10 números</li>
                   <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} />Url personalizavel</li>
                   <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} />Metricas de trafego</li>
-                  <li className="flex items-center gap-2 dark:border-white/70 py-3 text-zinc-300 dark:text-zinc-600"><RiCloseCircleLine size={'22px'} /> rl não presonalizaveis</li>
+                  <li className="flex items-center gap-2 dark:border-white/70 py-3 text-zinc-300 dark:text-zinc-600"><RiCloseCircleLine size={'22px'} />Personalização de UTMS</li>
                 </ul>
               </div>
             </NeonGradientCard>
 
             <div className="bg-white dark:bg-primaryColor text-black/90 dark:text-white/90 p-4 py-10 rounded-lg text-left w-full lg:w-[30%] z-20 border border-zinc-300 dark:border-zinc-700">
 
-              <h3 className="font-semibold text-xl text-zinc-800 dark:text-zinc-400">Essecial</h3>
-              <p className="text-4xl font-bold mb-8">R$99,90<span className="text-base font-medium dark:text-zinc-400"> /mês</span></p>
+              <h3 className="font-semibold text-xl text-zinc-800 dark:text-zinc-400">Plano Premium</h3>
+              <p className="text-4xl font-bold mb-8">R$130,00<span className="text-base font-medium dark:text-zinc-400"> /mês</span></p>
               <Button className="mb-10 w-full h-12">Assinar Agora</Button>
 
               <ul className="flex flex-col ">
                 <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} />Links ilimitados</li>
-                <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} /> sem limite de numeros</li>
-                <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} className="" /> url personalizavel</li>
-                <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} /> url não presonalizaveis</li>
-                <li className="flex items-center gap-2 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} /> sem metricas de trafego</li>
+                <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} /> Sem limite de numeros</li>
+                <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} className="" /> Url personalizavel</li>
+                <li className="flex items-center gap-2 border-b border-black/20 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} /> Metricas de trafego</li>
+                <li className="flex items-center gap-2 dark:border-white/70 py-3"><RiCheckboxCircleLine size={'22px'} /> Personalização de UTMS</li>
               </ul>
             </div>
 
@@ -67,7 +67,9 @@ export const Plans = () => {
               <p className="font-light text-muted-foreground tracking-tight">Se você tem alguma dúvida sobre como funciona nosso aplicativo de redirecionamento de URL personalizada do WhatsApp ou sobre nossos planos, estamos aqui para ajudar!</p>
             </div>
             <div className="w-full md:w-2/3 m-auto">
-              <Button className="w-full h-12"><RiWhatsappLine className="text-2xl w-20" size={'20px'} /> Whatsapp</Button>
+              <a href="http://wa.me/48996733887">
+                <Button className="w-full h-12"><RiWhatsappLine className="text-2xl w-20" size={'20px'} /> Whatsapp</Button>
+              </a>
             </div>
 
           </div>

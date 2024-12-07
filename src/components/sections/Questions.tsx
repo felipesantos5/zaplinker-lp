@@ -31,14 +31,14 @@ export const Questions = () => {
               </AccordionContent>
             </AccordionItem>
           </Accordion>
-          <Accordion type="single" collapsible>
+          {/* <Accordion type="single" collapsible>
             <AccordionItem value="item-1">
               <AccordionTrigger>Possui suporte ?</AccordionTrigger>
               <AccordionContent>
                 Oferecemos o suporte mais ativo do mercado. Nosso atendimento via WhatsApp funciona de segunda a sexta, das 8h às 20h, e aos finais de semana, das 10h às 15h.
               </AccordionContent>
             </AccordionItem>
-          </Accordion>
+          </Accordion> */}
         </div>
       </div>
     </AnimatedSection>
