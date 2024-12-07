@@ -21,7 +21,7 @@ const BlurIn = ({ word, className, variant, duration = 1 }: BlurIntProps) => {
   const combinedVariants = variant || defaultVariants;
 
   return (
-    <motion.h1
+    <motion.h2
       initial="hidden"
       animate="visible"
       transition={{ duration }}
@@ -32,7 +32,7 @@ const BlurIn = ({ word, className, variant, duration = 1 }: BlurIntProps) => {
       )}
     >
       {word}
-    </motion.h1>
+    </motion.h2>
   );
 };
 
