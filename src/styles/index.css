@@ -39,9 +39,21 @@ img::selection,
 div::selection,
 li::selection,
 ul::selection,
-br::selection {
+br::selection,
+figcaption::selection,
+blockquote::selection {
   background-color: #36ba55;
   color: white !important;
+}
+
+img {
+  pointer-events: none;
+}
+
+.title {
+  background: linear-gradient(to right, #82eca5, #38de0b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @layer base {
