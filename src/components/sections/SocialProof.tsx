@@ -11,7 +11,7 @@ const reviews = [
   // },
   {
     name: "Bernardo Silva",
-    username: "gestor de trafego",
+    username: "Gestor de trafego",
     body: "Me ajudou muito a criar links curtos e trackear tudo. Os relatórios para meus clientes ficaram muito mais precisos.",
     img: "https://avatar.vercel.sh/jill",
   },
@@ -30,7 +30,7 @@ const reviews = [
   {
     name: "Italo Nogueira",
     username: "Criador de conteudo",
-    body: "Uso o link personalizado na minha bio do Instagram, e a taxa de cliques aumentou muito. Sem falar que fica muito mais profissional.",
+    body: "Uso o link personalizado na minha bio do Instagram, e a taxa de cliques aumentou muito. Ficou muito mais profissional.",
     img: "https://avatar.vercel.sh/jenny",
   },
   {
