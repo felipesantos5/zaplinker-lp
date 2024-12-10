@@ -17,7 +17,7 @@ function App() {
       <AnimatedGridPattern
         className={cn(
           "[mask-image:radial-gradient(880px_circle_at_center,white,transparent)] md:[mask-image:radial-gradient(1250px_circle_at_center,white,transparent)]",
-          "h-[200%] md:h-[300%] skew-y-12",
+          "h-[200%] md:h-[290%] skew-y-12",
         )}
       />
       <About />
