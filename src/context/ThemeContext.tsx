@@ -4,7 +4,6 @@ import { createContext, useContext, useState, useEffect, ReactNode } from 'react
 export interface ThemeContextType {
   isDarkMode: boolean;
   toggleTheme: () => void;
-  setIsDarkMode: boolean;
 }
 
 // Cria o contexto com tipos
@@ -38,7 +37,7 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
   };
 
   return (
-    <ThemeContext.Provider value={{ isDarkMode, toggleTheme, setIsDarkMode }}>
+    <ThemeContext.Provider value={{ isDarkMode, toggleTheme }}>
       {children}
     </ThemeContext.Provider>
   );
