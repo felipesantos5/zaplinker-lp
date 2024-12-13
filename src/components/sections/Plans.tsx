@@ -11,7 +11,7 @@ export const Plans = () => {
           <h2 className="text-5xl font-semibold mb-4">Conheça nossos planos de assinatura</h2>
           <p className="mb-24 text-muted-foreground tracking-tight">Nossos planos são flexíveis e projetados para oferecer o melhor custo-benefício, adaptando-se ao que você precisa.</p>
 
-          <section className="flex flex-col gap-6 items-center lg:flex-row md:justify-between mb-6">
+          <section className="flex flex-col gap-10 items-center lg:flex-row md:justify-between mb-6">
 
             <div className="bg-white dark:bg-primaryColor text-black/90 dark:text-white/90 p-5 py-10 rounded-lg text-left w-full lg:w-[30%] z-20 border border-zinc-300 dark:border-zinc-700 h-full">
               <h3 className="font-semibold text-xl text-zinc-800 dark:text-zinc-400">Plano Básico</h3>

@@ -2,10 +2,13 @@ import logoWhite from "../../assets/zaplinker-white.png"
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { DarkModeButton } from "../ui/darkModeButton";
+import { useTheme } from "../../context/ThemeContext";
 
 export const Header = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [expanded, setExpanded] = useState(false);
+
+  const { isDarkMode, toggleTheme } = useTheme();
 
   const toggleExpanded = () => {
     setExpanded(!expanded);
@@ -86,7 +89,6 @@ export const Header = () => {
                 transition={{ type: "spring", stiffness: 80, duration: 1, delay: 0.8 }}
                 className="h-9 w-28 rounded-full cursor-pointer flex justify-center items-center bg-white  transition-colors duration-500 text-black font-semibold xlg:w-full"
                 href="https://app.zaplinker.com/"
-              // onClick={() => scrollToSection('planos')}
               >
                 Acessar
               </motion.a>
@@ -103,13 +105,12 @@ export const Header = () => {
         </motion.div>
 
         {expanded && (
-          <div className="text-white flex flex-col justify-center gap-4 items-center bg-[#3c3d3c80]/35 backdrop-blur-[5px] shadow-lg rounded-xl mt-1 py-4">
-            {" "}
+          <div className="text-white flex flex-col justify-center gap-3 items-center bg-[#3c3d3c80]/35 backdrop-blur-[5px] shadow-lg rounded-xl mt-1 py-4">
             <motion.a
               initial={{ x: -50, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ type: "spring", stiffness: 80, duration: 1, delay: 0.4 }}
-              className="h-11 w-36 hover:bg-[#484849]/40 transition-colors duration-500 rounded-full cursor-pointer font-semibold flex justify-center items-center text-white"
+              className="h-9 w-36 hover:bg-[#484849]/40 transition-colors duration-500 rounded-full cursor-pointer font-semibold flex justify-center items-center text-white"
               href="#planos"
               onClick={closeModal}
             >
@@ -119,12 +120,21 @@ export const Header = () => {
               initial={{ x: -50, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ type: "spring", stiffness: 80, duration: 1, delay: 0.2 }}
-              className="h-9 w-28 rounded-full cursor-pointer flex justify-center items-center  font-semibold bg-white text-black "
+              className="h-9 w-36 rounded-full cursor-pointer flex justify-center items-center  font-semibold bg-white text-black "
               href="https://app.zaplinker.com/"
               onClick={closeModal}
             >
               Acessar App
             </motion.a>
+            <motion.button
+              initial={{ x: -50, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ type: "spring", stiffness: 80, duration: 1, delay: 0.4 }}
+              className="h-9 w-36 hover:bg-[#484849]/40 transition-colors duration-500 rounded-full cursor-pointer font-semibold flex justify-center items-center text-white"
+              onClick={toggleTheme}
+            >
+              <>{isDarkMode ? 'tema claro' : 'tema escuro'}</>
+            </motion.button>
           </div>
         )}
 
