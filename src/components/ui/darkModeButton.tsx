@@ -10,7 +10,7 @@ export const DarkModeButton = () => {
 
       className={`text-white icon-container ${isDarkMode ? "dark" : "light"}`}
     >
-      {isDarkMode ? <RiSunLine className='icon' size={20} /> : <RiMoonLine className='icon' size={20} />}
+      {isDarkMode ? <RiSunLine className='icon' size={19} /> : <RiMoonLine className='icon' size={19} />}
     </button>
   );
 };
