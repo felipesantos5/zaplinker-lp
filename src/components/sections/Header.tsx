@@ -1,6 +1,7 @@
 import logoWhite from "../../assets/zaplinker-white.png"
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { DarkModeButton } from "../ui/darkModeButton";
 
 export const Header = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -89,6 +90,14 @@ export const Header = () => {
               >
                 Acessar
               </motion.a>
+              <motion.button
+                initial={{ x: -50, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ type: "spring", stiffness: 80, duration: 1, delay: 0.8 }}
+                className="h-9 w-12 rounded-full cursor-pointer flex justify-center items-center "
+              >
+                <DarkModeButton />
+              </motion.button>
             </div>
           )}
         </motion.div>
@@ -101,7 +110,7 @@ export const Header = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ type: "spring", stiffness: 80, duration: 1, delay: 0.4 }}
               className="h-11 w-36 hover:bg-[#484849]/40 transition-colors duration-500 rounded-full cursor-pointer font-semibold flex justify-center items-center text-white"
-              href="#sobre-nos"
+              href="#planos"
               onClick={closeModal}
             >
               Planos

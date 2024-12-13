@@ -6,7 +6,7 @@ import AnimatedSection from "../ui/animetedSection"
 export const Plans = () => {
   return (
     <AnimatedSection className="dark:text-white">
-      <div className="pt-24" id="planos">
+      <div className="pt-36" id="planos">
         <div className="text-center mx-4 sm:mx-20 container-grid">
           <h2 className="text-5xl font-semibold mb-4">Conheça nossos planos de assinatura</h2>
           <p className="mb-24 text-muted-foreground tracking-tight">Nossos planos são flexíveis e projetados para oferecer o melhor custo-benefício, adaptando-se ao que você precisa.</p>
