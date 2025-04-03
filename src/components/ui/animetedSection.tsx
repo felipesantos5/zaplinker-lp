@@ -20,7 +20,7 @@ const childVariants = {
   visible: { opacity: 1, y: 0 }
 };
 
-export const AnimatedSection = ({ children, className }: any) => {
+const AnimatedSection = ({ children, className }: any) => {
   return (
     <motion.section
       className={className}
@@ -35,3 +35,5 @@ export const AnimatedSection = ({ children, className }: any) => {
     </motion.section>
   );
 };
+
+export default AnimatedSection
