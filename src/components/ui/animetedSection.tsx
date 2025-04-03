@@ -1,43 +1,37 @@
-// components/AnimatedSection.tsx
-import React from 'react';
-import { motion } from 'framer-motion';
+// components/AnimatedSection.jsx
+import { motion } from "framer-motion";
 
-interface AnimatedSectionProps {
-  children: React.ReactNode;
-  className?: string;
-}
+const sectionVariants = {
+  hidden: { opacity: 0, y: 40 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.8,
+      ease: "easeInOut",
+      when: "beforeChildren",
+      staggerChildren: 0.3
+    }
+  }
+};
 
-const AnimatedSection: React.FC<AnimatedSectionProps> = ({ children, className }) => {
+const childVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: { opacity: 1, y: 0 }
+};
+
+export const AnimatedSection = ({ children, className }: any) => {
   return (
     <motion.section
-      className={`${className}`}
-      initial={{ opacity: 0, y: 50 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.8, ease: 'easeOut' }}
-      viewport={{ once: false, amount: 0.3 }}
+      className={className}
+      variants={sectionVariants}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, margin: "-20% 0px" }} // Ativa animação 20% antes da seção entrar na tela
     >
-      {children}
+      <motion.div variants={childVariants}>
+        {children}
+      </motion.div>
     </motion.section>
   );
 };
-
-export default AnimatedSection;
-
-
-
-// import { motion } from 'framer-motion';
-
-// const AnimatedSection = ({ className, children }) => (
-//   <motion.section
-//     className={`${className}`}
-//     initial={{ opacity: 0, y: 50 }}
-//     whileInView={{ opacity: 1, y: 0 }}
-//     transition={{ duration: 0.5, ease: 'easeOut' }} // Transição mais rápida
-//     viewport={{ once: false, amount: 0.1 }} // Ajustado para disparar mais cedo
-//     style={{ willChange: 'transform, opacity' }} // Opcional: para ajudar a performance
-//   >
-//     {children}
-//   </motion.section>
-// );
-
-// export default AnimatedSection;
