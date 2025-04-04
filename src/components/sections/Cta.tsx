@@ -3,7 +3,6 @@ import ShinyButton from "../ui/shiny-button";
 import { Button } from '../ui/button';
 import AnimatedSection from '../ui/animetedSection';
 import BlurIn from '../ui/blur-in';
-import { AuroraText } from "../magicui/aurora-text";
 
 export const Cta = () => {
   return (
