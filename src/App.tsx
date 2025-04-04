@@ -13,23 +13,23 @@ function App() {
   return (
     <div className="bg-neutral-50 dark:bg-primaryColor">
       <Header />
-      <Cta />
       <AnimatedGridPattern
         className={cn(
           "[mask-image:radial-gradient(880px_circle_at_center,white,transparent)] md:[mask-image:radial-gradient(1250px_circle_at_center,white,transparent)]",
           "h-[200%] md:h-[290%] skew-y-12",
         )}
       />
-      <About />
-      <Plans />
-      <SofialProof />
-      <Questions />
       <AnimatedGridPattern
         className={cn(
           "[mask-image:radial-gradient(1850px_circle_at_center,white,transparent)]",
           "h-[440%] skew-y-12 xsm:hidden",
         )}
       />
+      <Cta />
+      <About />
+      <Plans />
+      <SofialProof />
+      <Questions />
       <Footer />
     </div>
   )
