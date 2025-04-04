@@ -1,39 +1,49 @@
-// components/AnimatedSection.jsx
-import { motion } from "framer-motion";
+// components/AnimatedSection.tsx
+import React, { useRef, useEffect, useState } from 'react';
 
-const sectionVariants = {
-  hidden: { opacity: 0, y: 40 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.8,
-      ease: "easeInOut",
-      when: "beforeChildren",
-      staggerChildren: 0.3
+interface AnimatedSectionProps {
+  children: React.ReactNode;
+  className?: string;
+}
+
+const AnimatedSection: React.FC<AnimatedSectionProps> = ({ children, className }) => {
+  const [isVisible, setIsVisible] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.unobserve(entry.target);
+        }
+      },
+      {
+        threshold: 0.1,
+        rootMargin: '0px 0px -10% 0px'
+      }
+    );
+
+    if (ref.current) {
+      observer.observe(ref.current);
     }
-  }
-};
 
-const childVariants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0 }
-};
+    return () => {
+      if (ref.current) {
+        observer.unobserve(ref.current);
+      }
+    };
+  }, []);
 
-const AnimatedSection = ({ children, className }: any) => {
   return (
-    <motion.section
-      className={className}
-      variants={sectionVariants}
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, margin: "-20% 0px" }} // Ativa animação 20% antes da seção entrar na tela
+    <div
+      ref={ref}
+      className={`transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+        } ${className}`}
     >
-      <motion.div variants={childVariants}>
-        {children}
-      </motion.div>
-    </motion.section>
+      {children}
+    </div>
   );
 };
 
-export default AnimatedSection
+export default AnimatedSection;

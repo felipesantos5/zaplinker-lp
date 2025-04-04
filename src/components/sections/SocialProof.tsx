@@ -21,12 +21,12 @@ const reviews = [
     body: "Me ajudou muito a criar links curtos e trackear tudo. Os relatórios para meus clientes ficaram muito mais precisos.",
     img: "https://avatar.vercel.sh/jill",
   },
-  // {
-  //   name: "Gabriel Fonseca",
-  //   username: "Social media",
-  //   body: "I'm at a loss for words. This is amazing. I love it.",
-  //   img: "https://avatar.vercel.sh/jane",
-  // },
+  {
+    name: "Gabriel Fonseca",
+    username: "Social media",
+    body: "I'm at a loss for words. This is amazing. I love it.",
+    img: "https://avatar.vercel.sh/jane",
+  },
 
   {
     name: "Jessica Medeiros",

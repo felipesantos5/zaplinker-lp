@@ -55,9 +55,11 @@ img {
 }
 
 .title {
-  background: linear-gradient(to right, #82eca5, #38de0b);
+  background: linear-gradient(to right, #82eca5, #5fd33f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  z-index: 30;
+  position: relative;
 }
 
 .icon-container {

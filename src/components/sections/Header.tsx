@@ -38,7 +38,7 @@ export const Header = () => {
 
 
   return (
-    <motion.header className="fixed top-0 left-1/2 transform -translate-x-1/2 z-30">
+    <motion.header className="fixed top-0 left-1/2 transform -translate-x-1/2 z-50">
       <div className="flex flex-col">
         <motion.div
           initial={{ scale: 0, y: -100 }}
