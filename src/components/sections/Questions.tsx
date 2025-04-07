@@ -27,7 +27,7 @@ export const Questions = () => {
             <AccordionItem value="item-1">
               <AccordionTrigger>Possui suporte ?</AccordionTrigger>
               <AccordionContent>
-                Oferecemos o suporte mais ativo do mercado. Nosso atendimento via WhatsApp funciona de segunda a sexta, das 8h às 20h, e aos finais de semana, das 10h às 15h.
+                Oferecemos o suporte mais ativo do mercado. Nosso atendimento via WhatsApp funciona de segunda a sexta, das 8h às 20h.
               </AccordionContent>
             </AccordionItem>
           </Accordion>

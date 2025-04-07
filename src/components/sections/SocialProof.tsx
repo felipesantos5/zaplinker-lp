@@ -3,12 +3,12 @@ import Marquee from "../ui/marquee";
 import { ReviewCard } from "../ui/ReviewCard";
 
 const reviews = [
-  // {
-  //   name: "Calos Rocha",
-  //   username: "Co-produtor",
-  //   body: "I've never seen anything like this before. It's amazing. I love it.",
-  //   img: "https://avatar.vercel.sh/jack",
-  // },
+  {
+    name: "Calos Rocha",
+    username: "Co-produtor",
+    body: "Comecei a usar a Zapliner e agora tenho todas as metricas de UTM e CTR dos meus links. Isso me ajudou a aumentar minha taxa de conversão.",
+    img: "https://avatar.vercel.sh/jack",
+  },
   {
     name: "Italo Nogueira",
     username: "Criador de conteudo",
@@ -24,7 +24,7 @@ const reviews = [
   {
     name: "Gabriel Fonseca",
     username: "Social media",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    body: "Criei um link para cada cliente e agora consigo ver qual deles está performando melhor. Isso me ajudou a otimizar meu trabalho.",
     img: "https://avatar.vercel.sh/jane",
   },
 
@@ -50,7 +50,6 @@ const reviews = [
 
 const firstRow = reviews.slice(0, reviews.length / 2);
 const secondRow = reviews.slice(reviews.length / 2);
-
 
 export function SofialProof() {
   return (
