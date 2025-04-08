@@ -11,7 +11,7 @@ export const Questions = () => {
             <AccordionItem value="item-1">
               <AccordionTrigger>Oque é Zaplinker</AccordionTrigger>
               <AccordionContent>
-                A Zaplinker é uma ferramenta que possibilita alternar seus leads em dois ou mais WhatsApp.
+                O Zaplinker é uma ferramenta inteligente que permite criar links personalizados para centralizar múltiplos números de WhatsApp em um único lugar. Seus clientes clicam no link e são redirecionados automaticamente para um dos números cadastrados, enquanto você gerencia tudo de forma simples e analisa métricas detalhadas em tempo real.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
@@ -20,6 +20,22 @@ export const Questions = () => {
               <AccordionTrigger>É possível utilizar com o meu WhatsApp Business?</AccordionTrigger>
               <AccordionContent>
                 Sim, é possível utilizar tanto o WhatsApp normal quanto o WhatsApp Business.
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+          <Accordion type="single" collapsible>
+            <AccordionItem value="item-1">
+              <AccordionTrigger>Meus números ficam expostos no link?</AccordionTrigger>
+              <AccordionContent>
+                Não! Os números são protegidos e apenas redirecionados através do Zaplinker. Seus clientes veem apenas o link personalizado, garantindo profissionalismo e segurança.
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+          <Accordion type="single" collapsible>
+            <AccordionItem value="item-1">
+              <AccordionTrigger>Posso adicionar vários números de WhatsApp no mesmo link?</AccordionTrigger>
+              <AccordionContent>
+                Sim! Você pode cadastrar quantos números quiser e gerenciá-los livremente: ativar, desativar, adicionar ou remover a qualquer momento. O link permanece o mesmo, mas os contatos são direcionados dinamicamente.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
