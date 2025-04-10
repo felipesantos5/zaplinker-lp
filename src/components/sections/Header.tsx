@@ -121,7 +121,7 @@ export const Header = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ type: "spring", stiffness: 80, duration: 1, delay: 0.2 }}
               className="h-9 w-36 rounded-full cursor-pointer flex justify-center items-center  font-semibold bg-white text-black "
-              href="https://app.zaplinker.com/"
+              href="https://use.zaplinker.com/"
               onClick={closeModal}
             >
               Acessar App
