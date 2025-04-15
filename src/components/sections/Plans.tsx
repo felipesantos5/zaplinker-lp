@@ -34,7 +34,7 @@ export const Plans = () => {
 
                 <h3 className="font-semibold text-xl text-zinc-800 dark:text-zinc-400">Plano Mensal</h3>
                 <p className="text-4xl font-bold mb-8">R$50,00<span className="text-base font-medium dark:text-zinc-400">/mês</span></p>
-                <a href="https://use.zaplinker.com/registrar-checkout?plan=anual">
+                <a href="https://use.zaplinker.com/registrar-checkout?plan=mensal">
                   <Button className="mb-16 w-full h-12">Assinar Agora</Button>
                 </a>
                 <ul className="flex flex-col">
@@ -51,7 +51,7 @@ export const Plans = () => {
 
               <h3 className="font-semibold text-xl text-zinc-800 dark:text-zinc-400">Plano Anual</h3>
               <p className="text-4xl font-bold mb-8">R$35,00<span className="text-base font-medium dark:text-zinc-400">/mês</span></p>
-              <a href="https://use.zaplinker.com/registrar-checkout?plan=mensal">
+              <a href="https://use.zaplinker.com/registrar-checkout?plan=anual">
                 <Button className="mb-16 w-full h-12">Assinar Agora</Button>
               </a>
               <ul className="flex flex-col ">
