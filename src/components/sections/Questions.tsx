@@ -11,7 +11,7 @@ export const Questions = () => {
             <AccordionItem value="item-1">
               <AccordionTrigger>Oque é Zaplinker</AccordionTrigger>
               <AccordionContent>
-                O Zaplinker é uma ferramenta inteligente que permite criar links personalizados para centralizar múltiplos números de WhatsApp em um único lugar. Seus clientes clicam no link e são redirecionados automaticamente para um dos números cadastrados, enquanto você gerencia tudo de forma simples e analisa métricas detalhadas em tempo real.
+                O Zaplinker é uma ferramenta inteligente que permite criar links personalizados para centralizar múltiplos números de WhatsApp em um único link. Seus clientes clicam no link e são redirecionados automaticamente para um dos números cadastrados, enquanto você gerencia tudo de forma simples e analisa métricas detalhadas em tempo real.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
@@ -43,7 +43,7 @@ export const Questions = () => {
             <AccordionItem value="item-1">
               <AccordionTrigger>Possui suporte ?</AccordionTrigger>
               <AccordionContent>
-                Oferecemos o suporte mais ativo do mercado. Nosso atendimento via WhatsApp funciona de segunda a sexta, das 8h às 20h.
+                Oferecemos o suporte. Nosso atendimento via WhatsApp funciona de segunda a sexta, das 8h às 20h.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
