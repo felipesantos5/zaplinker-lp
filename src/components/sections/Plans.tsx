@@ -70,7 +70,7 @@ export const Plans = () => {
               <p className="font-light text-muted-foreground tracking-tight">Se você tem alguma dúvida sobre como funciona nosso aplicativo de redirecionamento de URL personalizada do WhatsApp ou sobre nossos planos, estamos aqui para ajudar!</p>
             </div>
             <div className="w-full md:w-2/3 m-auto">
-              <a href="https://zaplinker.com/zaplinker&utm_source=whatsLp" target="_blank">
+              <a href="https://wa.me/48996733887" target="_blank">
                 <Button className="w-full h-12"><RiWhatsappLine className="text-2xl w-20" size={'20px'} /> Whatsapp</Button>
               </a>
             </div>
