@@ -88,7 +88,7 @@ export const Header = () => {
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ type: "spring", stiffness: 80, duration: 1, delay: 0.8 }}
                 className="h-9 w-28 rounded-full cursor-pointer flex justify-center items-center bg-white  transition-colors duration-500 text-black font-semibold xlg:w-full"
-                href="https://use.zaplinker.com/"
+                href="https://app.zaplinker.com/"
               >
                 Acessar
               </motion.a>
@@ -121,7 +121,7 @@ export const Header = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ type: "spring", stiffness: 80, duration: 1, delay: 0.2 }}
               className="h-9 w-36 rounded-full cursor-pointer flex justify-center items-center  font-semibold bg-white text-black "
-              href="https://use.zaplinker.com/"
+              href="https://app.zaplinker.com/"
               onClick={closeModal}
             >
               Acessar App

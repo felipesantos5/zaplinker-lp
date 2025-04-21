@@ -16,7 +16,7 @@ export const Plans = () => {
             <div className="bg-white dark:bg-primaryColor text-black/90 dark:text-white/90 p-5 py-10 rounded-lg text-left w-full lg:w-[30%] z-20 border border-zinc-300 dark:border-zinc-700 h-full">
               <h3 className="font-semibold text-xl text-zinc-800 dark:text-zinc-400">Plano Básico</h3>
               <p className="text-4xl font-bold mb-8">Grátis</p>
-              <a href="https://use.zaplinker.com">
+              <a href="https://app.zaplinker.com">
                 <Button className="mb-16 w-full h-12">Testar Agora</Button>
               </a>
               <ul className="flex flex-col">
@@ -34,7 +34,7 @@ export const Plans = () => {
 
                 <h3 className="font-semibold text-xl text-zinc-800 dark:text-zinc-400">Plano Mensal</h3>
                 <p className="text-4xl font-bold mb-8">R$50,00<span className="text-base font-medium dark:text-zinc-400">/mês</span></p>
-                <a href="https://use.zaplinker.com/registrar-checkout?plan=mensal">
+                <a href="https://app.zaplinker.com/registrar-checkout?plan=mensal">
                   <Button className="mb-16 w-full h-12">Assinar Agora</Button>
                 </a>
                 <ul className="flex flex-col">
@@ -51,7 +51,7 @@ export const Plans = () => {
 
               <h3 className="font-semibold text-xl text-zinc-800 dark:text-zinc-400">Plano Anual</h3>
               <p className="text-4xl font-bold mb-8">R$35,00<span className="text-base font-medium dark:text-zinc-400">/mês</span></p>
-              <a href="https://use.zaplinker.com/registrar-checkout?plan=anual">
+              <a href="https://app.zaplinker.com/registrar-checkout?plan=anual">
                 <Button className="mb-16 w-full h-12">Assinar Agora</Button>
               </a>
               <ul className="flex flex-col ">
